@@ -39,3 +39,8 @@ Working:
 3)once column end is reached, its validated based on column type. => stops if content is invalid (e.g number format error, date format error)
 4)valid column is added to row. For date, as per requirement, converted to output date format.
 5)once row end is reached, row is written as line to result csv
+
+
+To start server - mvn clean spring-boot:run
+
+To run tests - mvn test
